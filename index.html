@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="src/index.css">
+    <script defer src="src/index.js"></script>
+</head>
+<body>
+    <div class="outer-wrapper">
+        <div class="input-wrapper">
+            <h3>User Input</h3>
+            <div class="table-wapper">
+                <table class="input-table">
+                    <thead>
+                    </thead>
+                    <tbody class="table-body">
+                        <tr>
+                            <td>Grid Size</td>
+                            <td>
+                                <input type="number" min="0" name="size" id="size" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Players</td>
+                            <td>
+                                <input type="number" min="0" name="players" id="players" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="button-wrapper">
+            <button class="start" id="start">Start</button>
+        </div>
+        <div class="table-wrapper">
+            <h3>Game Card</h3>
+            <table class="output-table">
+                <thead>
+                    <th>
+                        Player Number
+                    </th>
+                    <th>
+                        Dice Roll
+                    </th>
+                    <th>
+                        Dice Roll History
+                    </th>
+                    <th>
+                        Position History
+                    </th>
+                    <th>
+                        Win Status
+                    </th>
+                </thead>
+                <tbody class="table-body-output" table-body-output>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

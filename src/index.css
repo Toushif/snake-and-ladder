@@ -1,0 +1,35 @@
+.outer-wrapper {
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.table-body td {
+     padding-right: 2rem;
+}
+
+.button-wrapper {
+    margin: 1rem 0;
+}
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.output-table th {
+    padding-right: 2rem;
+}
+
+.table-body-output td {
+    border-right: 1px solid #ccc;
+    /* border-left: 1px solid #ccc; */
+}
